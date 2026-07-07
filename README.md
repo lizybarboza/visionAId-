@@ -28,7 +28,7 @@ to deliver real-time object detection, obstacle awareness, voice-guided navigati
 
 </p>
 <hr>
----
+
 
 # Overview
 
