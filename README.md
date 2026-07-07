@@ -1,6 +1,8 @@
 <div align="center">
 
-# <img src="assets/blinking-eye.gif" width="40"> VisionAId
+<h1 align="center">
+<img src="assets/blinking-eye.gif" width="45"> VisionAId
+</h1>
 ### AI-Powered Wearable Assistive Device for Visually Impaired Individuals
 
 **An intelligent wearable assistive system that combines Computer Vision, Embedded Systems, and Artificial Intelligence to improve independent mobility for visually impaired users.**
