@@ -1,8 +1,15 @@
 <div align="center">
-<img src="assets/download.gif" width="70">
-</div>
-### AI-Powered Wearable Assistive Device for Visually Impaired Individuals
 
+<h1>
+<img src="assets/blinking-eye.gif" width="45" alt="VisionAId Logo">
+Vision<span style="color:#3B82F6;">AI</span>d
+</h1>
+
+<h3>AI-Powered Wearable Assistive Device for Visually Impaired Individuals</h3>
+
+<p><i>Guiding Every Step with AI.</i></p>
+
+</div>
 **An intelligent wearable assistive system that combines Computer Vision, Embedded Systems, and Artificial Intelligence to improve independent mobility for visually impaired users.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
