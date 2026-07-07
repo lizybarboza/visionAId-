@@ -7,7 +7,9 @@
 <h3>AI-Powered Wearable Assistive Device for Visually Impaired Individuals</h3>
 
 <p><em>Guiding Every Step with AI.</em></p>
-
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="VisionAId Banner">
+</p>
 </div>
 <p align="center">
 VisionAId is an intelligent wearable assistive system that leverages
