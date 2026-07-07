@@ -1,4 +1,6 @@
-![](assets/download.gif)
+<div align="center">
+<img src="assets/download.gif" width="70">
+</div>
 ### AI-Powered Wearable Assistive Device for Visually Impaired Individuals
 
 **An intelligent wearable assistive system that combines Computer Vision, Embedded Systems, and Artificial Intelligence to improve independent mobility for visually impaired users.**
