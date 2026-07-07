@@ -1,25 +1,33 @@
 <div align="center">
 
 <h1>
-<img src="assets/blinking-eye.gif" width="45" alt="VisionAId Logo">
-Vision<span style="color:#3B82F6;">AI</span>d
+  <img src="assets/blinking-eye.gif" width="42" alt="VisionAId Logo">
+  Vision<strong>AI</strong>d
 </h1>
-
 <h3>AI-Powered Wearable Assistive Device for Visually Impaired Individuals</h3>
 
-<p><i>Guiding Every Step with AI.</i></p>
+<p><em>Guiding Every Step with AI.</em></p>
 
 </div>
-**An intelligent wearable assistive system that combines Computer Vision, Embedded Systems, and Artificial Intelligence to improve independent mobility for visually impaired users.**
+<p align="center">
+VisionAId is an intelligent wearable assistive system that leverages
+<strong>Computer Vision</strong>,
+<strong>Embedded Systems</strong>, and
+<strong>Artificial Intelligence</strong>
+to deliver real-time object detection, obstacle awareness, voice-guided navigation, and emergency communication for visually impaired individuals.
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![YOLOv3](https://img.shields.io/badge/YOLOv3-Tiny-red)
-![Arduino](https://img.shields.io/badge/Arduino-Nano-teal)
-![Status](https://img.shields.io/badge/Status-Prototype-success)
+<p align="center">
 
-</div>
+<img src="https://img.shields.io/badge/Python-3.x-blue">
+<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green">
+<img src="https://img.shields.io/badge/YOLOv3-Tiny-red">
+<img src="https://img.shields.io/badge/Arduino-Nano-teal">
+<img src="https://img.shields.io/badge/Status-Prototype-success">
+<img src="https://img.shields.io/badge/AI-Assistive%20Technology-purple">
 
+</p>
+<hr>
 ---
 
 # Overview
