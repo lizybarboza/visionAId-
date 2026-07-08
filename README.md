@@ -52,7 +52,7 @@ The system integrates **computer vision**, **embedded systems**, and **speech te
 ## System Architecture
 
 <p align="center">
-<img src="assets/architecture.png" width="85%" alt="System Architecture">
+<img src="assets/architecture diagram.png" width="85%" alt="System Architecture">
 </p>
 
 ---
