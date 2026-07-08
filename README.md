@@ -109,13 +109,20 @@ YOLOv3-Tiny + Arduino Nano
 - Generated immediate voice alerts for nearby obstacles.
 - Enabled emergency SMS communication through voice commands.
 - Achieved reliable communication between hardware and the Android application.
+---
 ## Sample Outputs
 
-| Object Detection | Output |
-|-----------------|---------|
-| Person | ![](assets/person.png) |
-| Chair | ![](assets/chair.png) |
-| Dog | ![](assets/dog.png) |
+<p align="center">
+  <img src="assets/person.jpg" width="30%" alt="Person Detection">
+  <img src="assets/chair.jpg" width="30%" alt="Chair Detection">
+  <img src="assets/dog.jpg" width="30%" alt="Dog Detection">
+</p>
+
+<p align="center">
+  <b>Person Detection</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Chair Detection</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Dog Detection</b>
+</p>
 
 ---
 
