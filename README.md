@@ -56,6 +56,11 @@ The system integrates **computer vision**, **embedded systems**, and **speech te
 </p>
 
 ---
+## Prototype
+
+<p align="center">
+  <img src="assets/prototype_1.jpg" width="60%" alt="VisionAId Prototype">
+</p>
 
 ## Technology Stack
 
