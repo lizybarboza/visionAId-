@@ -4,188 +4,172 @@
   <img src="assets/blinking-eye.gif" width="42" alt="VisionAId Logo">
   Vision<strong>AI</strong>d
 </h1>
+
 <h3>AI-Powered Wearable Assistive Device for Visually Impaired Individuals</h3>
 
 <p><em>Guiding Every Step with AI.</em></p>
+
+<img src="assets/banner.png" width="100%">
+
 </div>
+
 <p align="center">
-VisionAId is an intelligent wearable assistive system that leverages
+VisionAId is an intelligent wearable assistive system that combines
 <strong>Computer Vision</strong>,
-<strong>Embedded Systems</strong>, and
-<strong>Artificial Intelligence</strong>
-to deliver real-time object detection, obstacle awareness, voice-guided navigation, and emergency communication for visually impaired individuals.
+<strong>Embedded Systems</strong>,
+<strong>Artificial Intelligence</strong>, and
+<strong>Speech Technologies</strong>
+to provide real-time object recognition, obstacle detection, voice-guided navigation, and emergency communication for visually impaired individuals.
 </p>
 
 <p align="center">
-
 <img src="https://img.shields.io/badge/Python-3.x-blue">
 <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green">
 <img src="https://img.shields.io/badge/YOLOv3-Tiny-red">
 <img src="https://img.shields.io/badge/Arduino-Nano-teal">
 <img src="https://img.shields.io/badge/Status-Prototype-success">
 <img src="https://img.shields.io/badge/AI-Assistive%20Technology-purple">
-
 </p>
-<hr>
-
-
-# Overview
-
-VisionAId is an AI-powered wearable assistive device designed to improve the safety, mobility, and independence of visually impaired individuals.
-
-The system combines **real-time object detection**, **obstacle sensing**, **speech technologies**, and **wireless communication** to provide users with intelligent environmental awareness and emergency support.
-
-Unlike traditional white canes that only detect nearby obstacles, VisionAId provides semantic understanding of the surroundings by identifying everyday objects and converting the information into spoken guidance.
 
 ---
 
-# Motivation
+# 📖 Overview
 
-Navigating unfamiliar environments remains a major challenge for visually impaired individuals.
+VisionAId is an AI-powered wearable assistive device developed to improve the safety, mobility, and independence of visually impaired individuals.
 
-Traditional assistive devices have limitations such as:
+Traditional mobility aids such as white canes and guide dogs provide limited environmental awareness and lack contextual understanding of surroundings. VisionAId addresses these limitations by integrating Artificial Intelligence, Computer Vision, and IoT technologies into a single assistive system.
 
-- Limited obstacle detection
-- No contextual understanding
-- Lack of emergency communication
-- Dependence on internet connectivity
+The system enables users to:
 
-VisionAId addresses these challenges through an affordable AI-based wearable solution capable of understanding the user's surroundings in real time.
-
----
-
-# Key Features
-
-- Real-time AI Object Detection
-- Obstacle Detection using Ultrasonic Sensor
-- Voice Guidance (Text-to-Speech)
-- Speech Command Recognition
-- Emergency SMS Alerts
-- Bluetooth Communication
-- Offline Functionality
-- Lightweight Prototype
+- Detect nearby obstacles
+- Recognize surrounding objects
+- Receive voice-guided feedback
+- Send emergency messages through voice commands
+- Navigate independently and safely
 
 ---
 
-# Hardware Components
+# 🎯 Objectives
+
+- Develop an intelligent wearable navigation system for visually impaired users.
+- Implement real-time object detection using YOLOv3-Tiny.
+- Detect obstacles using ultrasonic sensing.
+- Provide speech-based interaction through Text-to-Speech and Speech-to-Text technologies.
+- Enable emergency communication through GSM messaging.
+
+---
+
+# ✨ Key Features
+
+✅ Real-Time Object Detection
+
+✅ Obstacle Detection and Voice Alerts
+
+✅ Speech Command Recognition
+
+✅ Emergency SMS Communication
+
+✅ Bluetooth-Based Wireless Communication
+
+✅ Offline Functionality
+
+✅ Bone-Conduction Audio Support
+
+✅ Lightweight and Cost-Effective Prototype
+
+---
+
+# 🏗️ System Architecture
+
+<p align="center">
+<img src="assets/architecture.png" width="90%">
+</p>
+
+The system consists of four major stages:
+
+1. **Input Acquisition**
+   - Camera captures surroundings.
+   - Ultrasonic sensor measures obstacle distance.
+
+2. **Processing**
+   - YOLOv3-Tiny performs object detection.
+   - Arduino Nano processes sensor data.
+
+3. **Communication**
+   - Bluetooth transmits information to the Android application.
+   - GSM module sends emergency messages.
+
+4. **Feedback**
+   - Text-to-Speech provides voice guidance.
+   - Bone-conduction headphones deliver audio alerts.
+
+---
+
+# 🔄 System Workflow
+
+```text
+Real World Environment
+        ↓
+ Camera + Ultrasonic Sensor
+        ↓
+ YOLOv3-Tiny + Arduino Nano
+        ↓
+ Bluetooth Communication
+        ↓
+ Android Application
+        ↓
+ Text-to-Speech Alerts
+        ↓
+ Bone-Conduction Headphones
+```
+
+---
+
+# 🛠 Hardware Components
 
 | Component | Purpose |
-|------------|---------|
-| Arduino Nano | Controls sensors and communication modules |
-| Ultrasonic Sensor | Detects nearby obstacles |
-| Bluetooth Module | Wireless communication with Android application |
-| GSM Module | Sends emergency SMS alerts |
+|------------|----------|
+| Arduino Nano | Central controller and communication hub |
+| HC-SR04 Ultrasonic Sensor | Obstacle detection |
+| HC-05 Bluetooth Module | Wireless communication |
+| SIM800L GSM Module | Emergency messaging |
+| Laptop + Camera | AI object detection processing |
 | Buck Converter | Voltage regulation |
 | Regulated Power Supply | Stable power management |
-| Laptop | Runs AI object detection model |
-| Android Application | Speech processing and user interaction |
+| Android Smartphone | Speech processing and user interaction |
 
 ---
 
-# Software Stack
+# 💻 Software Stack
 
 - Python
 - OpenCV
 - YOLOv3-Tiny
 - Arduino IDE
 - Android Studio
-- Speech-to-Text
-- Text-to-Speech
-- Serial Communication
+- Text-to-Speech (TTS)
+- Speech-to-Text (STT)
 - Bluetooth Communication
+- Serial Communication
 
 ---
 
-# System Architecture
+# 🤖 AI Model
 
-```
-                Camera
-                   │
-                   ▼
-          YOLOv3-Tiny Model
-                   │
-                   ▼
-          Laptop AI Processing
-                   │
-             Bluetooth Module
-                   │
-                   ▼
-        Android Application
-        (TTS / STT Engine)
-                   │
-                   ▼
-      Bone Conduction Headphones
-
-────────────────────────────────────
-
-Ultrasonic Sensor
-        │
-        ▼
-   Arduino Nano
-        │
-        ▼
- Bluetooth Module
-        │
-        ▼
- Android Application
-
-────────────────────────────────────
-
- Voice Command
-        │
-        ▼
- Speech-to-Text
-        │
-        ▼
- Arduino Nano
-        │
-        ▼
- GSM Module
-        │
-        ▼
- Emergency SMS
-```
-
----
-
-# Workflow
-
-1. The camera continuously captures the user's surroundings.
-
-2. The YOLOv3-Tiny model detects and classifies nearby objects.
-
-3. The ultrasonic sensor measures the distance to obstacles.
-
-4. Arduino Nano processes obstacle information and prioritizes safety alerts.
-
-5. Detection results are transmitted to the Android application via Bluetooth.
-
-6. The Android application converts text into speech and provides real-time voice guidance.
-
-7. Users can issue voice commands which are converted into text.
-
-8. Emergency commands are sent to the GSM module to deliver SMS alerts to registered contacts.
-
----
-
-# AI Model
-
-Model Used:
-
+### Model
 - YOLOv3-Tiny
 
-Dataset:
+### Dataset
+Custom dataset consisting of **19 object classes**.
 
-- Custom dataset consisting of **19 object classes**
-
-Detected Objects include:
+### Detected Objects
 
 - Person
 - Car
 - Bus
 - Truck
-- Bicycle
 - Motorcycle
+- Bicycle
 - Dog
 - Cat
 - Cow
@@ -194,108 +178,107 @@ Detected Objects include:
 - Laptop
 - Mobile Phone
 - Book
-- Fire Hydrant
-- Stop Sign
-- Elephant
 - Traffic Light
+- Stop Sign
+- Fire Hydrant
+- Elephant
 - Bottle
 
 ---
 
-# Results
+# 📊 Project Outcomes
 
-The prototype successfully demonstrated:
+### 🎯 Real-Time Object Recognition
+Successfully detected and classified 19 object categories and generated voice feedback.
 
-- Real-time object detection with voice feedback
-- Reliable obstacle detection within a safety range
-- Prioritized safety alerts for obstacle avoidance
-- Offline emergency SMS transmission
-- Stable Bluetooth communication between hardware and Android application
+### 🚶 Reliable Obstacle Detection
+Provided immediate voice alerts for obstacles within the safety threshold.
+
+### 📱 Emergency Communication
+Enabled speech-driven emergency SMS transmission without requiring internet connectivity.
 
 ---
 
-# Future Improvements
+# 📈 Results
+
+- Real-time object recognition using YOLOv3-Tiny.
+- Reliable obstacle detection using ultrasonic sensing.
+- Stable Bluetooth communication.
+- Prioritized safety alerts.
+- Successful GSM-based emergency messaging.
+
+---
+
+# 🚀 Future Enhancements
 
 - Raspberry Pi deployment
-- Lightweight wearable design
-- GPS Navigation
-- OCR for text reading
-- Currency Detection
-- Face Recognition
+- Standalone wearable device
+- GPS-based navigation
+- OCR-based text reading
+- Currency recognition
+- Face recognition
 - Cloud synchronization
 - Battery optimization
+- Miniaturized hardware design
 
 ---
 
-# Repository Structure
+# 📂 Repository Structure
 
-```
+```text
 VisionAId
 │
-├── AI Model
-│   ├── YOLOv3-Tiny
-│   ├── Weights
-│   └── Detection Code
-│
-├── Arduino
-│   ├── Obstacle Detection
-│   └── GSM Communication
-│
-├── Android App
-│   ├── Text-to-Speech
-│   └── Speech-to-Text
-│
-├── Hardware
-│   ├── Circuit Diagram
-│   ├── Components
-│   └── Prototype Images
-│
-├── Dataset
-│
-├── Documentation
-│
-├── Demo
-│
+├── assets/
+├── AI_Model/
+├── Arduino/
+├── Android_App/
+├── Dataset/
+├── Hardware/
+├── Documentation/
+├── Demo/
 └── README.md
 ```
 
 ---
 
-# My Contributions
+# 👩‍💻 My Contributions
 
-As part of this project, I was responsible for:
-
-- Hardware architecture planning
-- Embedded system integration
-- AI model integration
-- Dataset collection and preparation
-- Literature review and technical research
-- Prototype design
-- System documentation
-- Testing and validation
-- Project presentation
+- System Architecture Design
+- Hardware-Software Integration
+- AI Model Integration
+- Dataset Preparation
+- Prototype Development
+- Literature Review
+- System Testing and Validation
+- Technical Documentation
+- Project Presentation
 
 ---
 
-# Project Status
+# 📚 Research Contributions
 
-Current Version:
+This project demonstrates practical applications of:
 
-**Prototype V1**
-
-The prototype has been successfully developed and validated under controlled indoor and outdoor environments. Future versions will focus on hardware miniaturization, standalone deployment, and enhanced AI capabilities.
-
----
-
-# References
-
-This project was inspired by contemporary research in Assistive Technology, Computer Vision, Artificial Intelligence, Embedded Systems, and IoT, while implementing a customized architecture tailored for affordable real-world assistive navigation.
+- Artificial Intelligence
+- Computer Vision
+- Embedded Systems
+- IoT
+- Human-Centered Assistive Technology
+- Real-Time Systems
 
 ---
 
-# License
+# 📌 Project Status
 
-This project was developed for academic and research purposes.
+**Prototype V1 Completed**
+
+The current version has been validated in controlled indoor and outdoor environments and serves as the foundation for future standalone wearable implementations.
+
+---
+
+# 📜 License
+
+Developed for academic and research purposes.
 
 ---
 
